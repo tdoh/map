@@ -1,101 +1,101 @@
 {
   "name": "基礎技能",
   "uid": "1",
-  "intro": "http://wiki.tdohacker.org/wiki/基礎技能?useformat=mobile",
+  "intro": "https://github.com/tdoh/map/blob/master/basic.md",
   "children": [
     {
       "name": "攻擊",
       "uid": "2",
-      "intro": "http://wiki.tdohacker.org/wiki/攻擊?useformat=mobile",
+      "intro": "https://github.com/tdoh/map/blob/master/attack_basic.md",
       "children": [
         {
           "name": "弱點研究",
           "uid": "5",
-          "intro": "http://wiki.tdohacker.org/wiki/攻擊-弱點研究?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/attack_0days.md"
         },
         {
           "name": "網頁",
           "uid": "6",
-          "intro": "http://wiki.tdohacker.org/wiki/攻擊-網頁?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/attack_web.md"
         },
         {
           "name": "網路",
           "uid": "7",
-          "intro": "http://wiki.tdohacker.org/wiki/攻擊-網路?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/attack_network.md"
         },
         {
           "name": "作業系統",
           "uid": "8",
-          "intro": "http://wiki.tdohacker.org/wiki/攻擊-作業系統?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/attack_os.md"
         },
         {
           "name": "惡意程式研究",
           "uid": "9",
-          "intro": "http://wiki.tdohacker.org/wiki/攻擊-惡意程式研究?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/malware_analysis.md"
         }
       ]
     },
     {
       "name": "防禦",
       "uid": "3",
-      "intro": "http://wiki.tdohacker.org/wiki/防禦?useformat=mobile",
+      "intro": "https://github.com/tdoh/map/blob/master/defense_basic.md",
       "children": [
         {
           "name": "主機安全",
           "uid": "10",
-          "intro": "http://wiki.tdohacker.org/wiki/防禦-主機安全?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/defense_host.md"
         },
         {
           "name": "網路安全",
           "uid": "11",
-          "intro": "http://wiki.tdohacker.org/wiki/防禦-網路安全?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/defense_network.md"
         },
         {
           "name": "異常偵測",
           "uid": "12",
-          "intro": "http://wiki.tdohacker.org/wiki/防禦-異常偵測?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/defense_log_analysis.md"
         },
         {
           "name": "防禦性程式開發",
           "uid": "13",
-          "intro": "http://wiki.tdohacker.org/wiki/防禦-防禦性程式開發?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/defense_defensive_programming.md"
         },
         {
           "name": "企業資安",
           "uid": "14",
-          "intro": "http://wiki.tdohacker.org/wiki/防禦-企業資安?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/defense_enterprise.md"
         }
       ]
     },
     {
       "name": "事件調查",
       "uid": "4",
-      "intro": "http://wiki.tdohacker.org/wiki/事件調查?useformat=mobile",
+      "intro": "https://github.com/tdoh/map/blob/master/forensic.md",
       "children": [
         {
           "name": "鑑識法規",
           "uid": "15",
-          "intro": "http://wiki.tdohacker.org/wiki/事件調查-鑑識法規?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/forensic_law.md"
         },
         {
           "name": "作業系統",
           "uid": "16",
-          "intro": "http://wiki.tdohacker.org/wiki/事件調查-作業系統?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/forensic_os.md"
         },
         {
           "name": "網路",
           "uid": "17",
-          "intro": "http://wiki.tdohacker.org/wiki/事件調查-網路?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/forensic_network.md"
         },
         {
           "name": "資料復原",
           "uid": "18",
-          "intro": "http://wiki.tdohacker.org/wiki/事件調查-資料復原?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/forensic_data_recovery.md"
         },
         {
           "name": "惡意程式分析",
           "uid": "19",
-          "intro": "http://wiki.tdohacker.org/wiki/事件調查-惡意程式分析?useformat=mobile"
+          "intro": "https://github.com/tdoh/map/blob/master/forensic_malware_analysis.md"
         }
       ]
     }
