@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Orange",
+    "info": "實戰型網路攻擊者",
+    "photo": "/img/master-1.jpg",
+    "sklist": [
+      "2",
+      "7",
+      "8",
+      "9",
+      "1",
+      "5",
+      "6",
+      "11"
+    ]
+  },
+  {
+    "name": "Birdman",
+    "info": "鑑識專家",
+    "photo": "/img/master-2.jpg",
+    "sklist": [
+      "1",
+      "4",
+      "16",
+      "19"
+    ]
+  },
+  {
+    "name": "Tim",
+    "info": "弱點研究",
+    "photo": "/img/master-2.jpg",
+    "sklist": [
+      "1",
+      "2",
+      "5",
+      "8",
+      "9",
+      "12"
+    ]
+  }
+]

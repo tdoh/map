@@ -1,0 +1,55 @@
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #123ABC;
+  stroke: #CBA543;
+}
+
+.node text {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.overlay {
+  background-color: #EEE;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.menu, .ui.segment {
+  margin: 0px !important;
+  border-radius: 0px !important;
+}
+
+.right.sidebar.menu {
+  min-width: 20%;
+}
+
+.pushable {
+  background: white;
+}
+
+.foot {
+  height: 25%;
+}
+
+.masterList {
+  overflow-y:auto;
+  white-space:nowrap;
+}
+
+iframe {
+  height: 100%;
+}
