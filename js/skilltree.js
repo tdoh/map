@@ -151,7 +151,9 @@ treeJSON = d3.json("skilltree.json", function(error, treeData) {
       .style("stroke", "#FFA726")
       .style("fill", "#FFA726");
 
-    d3.select("iframe").attr("src","/wiki/" + d.name + ".html");
+    // Update wiki src
+    // d3.select("iframe").attr("src","/wiki/" + d.name + ".html");
+    d3.select("iframe").attr("src",d.intro);
   }
 
   function update(source) {
