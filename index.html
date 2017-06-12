@@ -11,6 +11,7 @@
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="dist/semantic.js"></script>
   <script src="js/d3.min.js"></script>
+  <script src="js/marked.js"></script>
   <script src="js/skilltree.js"></script>
   <script src="js/master.js"></script>
 </head>
@@ -33,9 +34,9 @@ $( document ).ready(function() {
       </div>
     </div>
     <div class="ui pushable">
-      <div class="ui  right vertical sidebar menu uncover visible">
-        <iframe src="https://github.com/tdoh/map/blob/master/basic.md">
-        </iframe>
+      <div id="marked" class="ui  right vertical sidebar menu uncover visible">
+        <!--<iframe src="https://github.com/tdoh/map/blob/master/basic.md">
+        </iframe>-->
       </div>
       <div class="attached pushable">
         <div class="skill-tree"></div>
@@ -47,6 +48,16 @@ $( document ).ready(function() {
       <div class="masterList"></div>
     </div>   
   </div>
+  <script>
+    // Get markdown file
+    fetch("https://tdoh.github.io/map/basic.md").then((response) => {
+      if(response.ok) {
+        return response.text();
+      }
+    }).then((text) => {
+      document.querySelector('#marked').innerHTML = marked(text);
+    });
+  </script>
 </body>
 
 </html>
